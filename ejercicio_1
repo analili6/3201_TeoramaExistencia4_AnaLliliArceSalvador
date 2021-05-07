@@ -1,0 +1,21 @@
+% Título: Teorama de existencis
+% Descripción: Script para graficar una funcion de la forma f (x) = exp(x)
+% Autor: Ana Lilia Arce Salvador (analili6) al5853542@gmail.com
+% Fecha: 20210506
+% Sesión: 3
+
+% limpiar variables
+ clear
+ % f (x) = exp(x)
+% Rango
+ x =0: 0.1: 4; 
+% Valor de la función 
+ y= exp(x)
+% Dibujar x, y
+ plot(x, y);
+% Titulo
+ title("f (x) = exp(x)");
+% Etiqueta para x
+ xlabel ("x");
+% Etiqueta para y
+ ylabel ("y");
