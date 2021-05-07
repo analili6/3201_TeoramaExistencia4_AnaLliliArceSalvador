@@ -1,0 +1,21 @@
+% Título: Teorama de existencis
+% Descripción: Script para graficar una funcion de la forma f (x) = [x])
+% Autor: Ana Lilia Arce Salvador (analili6) al5853542@gmail.com
+% Fecha: 20210506
+% Sesión: 3
+
+% limpiar variables
+ clear
+ % f (x) = [x])
+% Rango
+ x = 0: 0.1: 10; 
+% Valor de la función 
+ y=[x]
+% Dibujar x, y
+ plot(x, y);
+% Titulo
+ title("f (x) = [x]");
+% Etiqueta para x
+ xlabel ("x");
+% Etiqueta para y
+ ylabel ("y");
